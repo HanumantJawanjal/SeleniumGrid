@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="FF Test(failed)">
+    <parameter name="port" value="4457"/>
+    <classes>
+      <class name="gridexample.GridExample">
+        <methods>
+          <include name="driverSetUp"/>
+          <include name="checkTitle"/>
+        </methods>
+      </class> <!-- gridexample.GridExample -->
+    </classes>
+  </test> <!-- FF Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
